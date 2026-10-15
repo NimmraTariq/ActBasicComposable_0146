@@ -1,3 +1,5 @@
+package com.example.actbasiccomposable_0146
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
