@@ -68,7 +68,7 @@ fun LoginInfo() {
     )
     Text(
         text = "Nimra Tariq",
-        fontSize = 18.sp,
+        fontSize = 20.sp,
         fontWeight = FontWeight.Bold,
         color = Color.Blue
     )
