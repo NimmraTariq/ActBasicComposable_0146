@@ -93,3 +93,24 @@ fun LoginPhoto() {
         contentScale = ContentScale.Fit
     )
 }
+
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize()) {
+        LoginBackground()
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 60.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            LoginHeader()
+            Spacer(modifier = Modifier.height(40.dp))
+            LoginLogo()
+            Spacer(modifier = Modifier.height(30.dp))
+            LoginInfo()
+            Spacer(modifier = Modifier.height(24.dp))
+            LoginPhoto()
+        }
+    }
+}
