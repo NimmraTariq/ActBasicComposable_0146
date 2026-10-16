@@ -56,3 +56,25 @@ fun LoginLogo() {
         modifier = Modifier.size(150.dp)
     )
 }
+
+@Composable
+fun LoginInfo() {
+    Text(
+        text = "Nama",
+        fontSize = 16.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.Red
+    )
+    Text(
+        text = "Nimra Tariq",
+        fontSize = 18.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.Blue
+    )
+    Text(
+        text = "20240140146",
+        fontSize = 26.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.Black
+    )
+}
