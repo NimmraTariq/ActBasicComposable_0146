@@ -144,7 +144,7 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
             modifier = modifier
                 .fillMaxWidth()
                 .height(300.dp)
-                .background(color = Color.Cyan),
+                .background(color = Color(0xFF80DEEA)),
             contentAlignment = Alignment.Center
         ) {
             Image(
