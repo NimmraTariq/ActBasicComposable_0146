@@ -32,3 +32,18 @@ fun LoginBackground(modifier: Modifier = Modifier) {
         contentScale = ContentScale.Crop
     )
 }
+
+@Composable
+fun LoginHeader() {
+    Text(
+        text = "Login",
+        fontSize = 32.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.Blue
+    )
+    Text(
+        text = "Ini adalah halaman login,",
+        fontSize = 16.sp,
+        color = Color.White
+    )
+}
