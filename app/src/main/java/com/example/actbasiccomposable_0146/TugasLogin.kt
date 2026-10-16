@@ -1,6 +1,7 @@
 package com.example.actbasiccomposable_0146
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -76,5 +77,19 @@ fun LoginInfo() {
         fontSize = 26.sp,
         fontWeight = FontWeight.Bold,
         color = Color.Black
+    )
+}
+
+@Composable
+fun LoginPhoto() {
+    Image(
+        painter = painterResource(id = R.drawable.foto_kaaba),
+        contentDescription = null,
+        modifier = Modifier
+            .size(300.dp)
+            .clip(CircleShape)
+            .background(Color(0xFFE8E8F4))
+            .border(width = 4.dp, color = Color.White, shape = CircleShape),
+        contentScale = ContentScale.Fit
     )
 }
