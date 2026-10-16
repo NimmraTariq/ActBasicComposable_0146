@@ -74,7 +74,7 @@ fun LoginInfo() {
     )
     Text(
         text = "20240140146",
-        fontSize = 26.sp,
+        fontSize = 28.sp,
         fontWeight = FontWeight.Bold,
         color = Color.Black
     )
