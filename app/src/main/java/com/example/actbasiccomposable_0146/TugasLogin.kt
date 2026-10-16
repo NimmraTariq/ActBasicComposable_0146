@@ -38,7 +38,7 @@ fun LoginBackground(modifier: Modifier = Modifier) {
 fun LoginHeader() {
     Text(
         text = "Login",
-        fontSize = 32.sp,
+        fontSize = 36.sp,
         fontWeight = FontWeight.Bold,
         color = Color.Blue
     )
@@ -101,7 +101,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(top = 60.dp),
+                .padding(top = 70.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             LoginHeader()
