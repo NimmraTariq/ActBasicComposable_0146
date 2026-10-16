@@ -22,3 +22,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun LoginBackground(modifier: Modifier = Modifier) {
+    Image(
+        painter = painterResource(id = R.drawable.bg_masjid),
+        contentDescription = null,
+        modifier = modifier.fillMaxSize(),
+        contentScale = ContentScale.Crop
+    )
+}
