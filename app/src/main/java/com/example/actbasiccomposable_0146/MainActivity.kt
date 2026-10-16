@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, heightDp = 1500)
 @Composable
 fun TugasPreview() {
     ActBasicComposable_0146Theme {
