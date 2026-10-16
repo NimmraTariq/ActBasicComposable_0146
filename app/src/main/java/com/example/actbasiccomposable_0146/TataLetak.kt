@@ -111,6 +111,7 @@ fun TataLetakRowColumn(modifier: Modifier = Modifier) {
 
 @Composable
 fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
+    val gambar = painterResource(id = R.drawable.logo_umy)
     Column {
         Box(
             modifier = modifier
@@ -137,6 +138,20 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
                     Text(text = "Col1_Row2_Komponen3")
                 }
             }
+        }
+        Spacer(modifier = Modifier.height(10.dp))
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(color = Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
         }
     }
 }
